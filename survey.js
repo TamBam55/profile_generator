@@ -29,32 +29,31 @@ const generator = [];
 
 // What's your name? 
 rl.question('What is your nickname? ', (answer) => {
-  generator.push(`Thank you for your valuable feedback: ${answer}`);
+  generator.push(`Wow, what an awesome nickname: ${answer}`);
 
   //What's an activity you like doing?
   rl.question('What is an activity you like doing? ', (answer) => {
-    generator.push(`Thank you for your valuable feedback: ${answer}`);
+    generator.push(`Loulou's favourite activity is: ${answer}`);
 
     // What do you listen to while doing that? 
     rl.question('What do you listen to while doing that? ', (answer) => {
-      generator.push(`Thank you for your valuable feedback: ${answer}`);
+      generator.push(`She likes to read and listen to: ${answer}`);
 
       //Which meal is your favourite? Breakfast, lunch or dinner.
       rl.question('Which meal is your favourite? Breakfast, lunch or dinner. ', (answer) => {
-        generator.push(`Thank you for your valuable feedback: ${answer}`);
+        generator.push(`Loulou loves: ${answer}`);
 
         //What's your favourite thing to eat for that meal?
         rl.question('What is your favourite thing to eat for that meal? ', (answer) => {
-          generator.push(`Thank you for your valuable feedback: ${answer}`);
+          generator.push(`Her favourite Breakfast meal is: ${answer}`);
 
           //Which sport is your absolute favourite?
           rl.question('Which sport is your absolute favourite? ', (answer) => {
-            generator.push(`Thank you for your valuable feedback: ${answer}`);
+            generator.push(`Loulou especially loves: ${answer}`);
 
             //What is your superpower?
             rl.question('What is your superpower? ', (answer) => {
-              generator.push(`Thank you for your valuable feedback: ${answer}`);
-
+              generator.push(`Loulou says that her super power is: ${answer}`);
               rl.close();
             });
           });
